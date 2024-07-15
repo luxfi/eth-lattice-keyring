@@ -1,0 +1,28 @@
+{
+  "name": "@luxfi/eth-lattice-keyring",
+  "version": "1.1.1",
+  "description": "Keyring for connecting to the Lattice1 hardware wallet",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GridPlus/eth-lattice-keyring.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/GridPlus/eth-lattice-keyring/issues"
+  },
+  "homepage": "https://github.com/GridPlus/eth-lattice-keyring#readme",
+  "dependencies": {
+    "@ethereumjs/common": "2.4.0",
+    "@ethereumjs/tx": "3.3.0",
+    "bn.js": "^5.2.0",
+    "ethereumjs-util": "^7.0.10",
+    "gridplus-sdk": "^2.5.2",
+    "rlp": "^3.0.0",
+    "secp256k1": "4.0.2"
+  }
+}
